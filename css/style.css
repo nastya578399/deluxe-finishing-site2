@@ -282,7 +282,7 @@ header {
   height: 80px;
   position: relative;
   background: #BE2024;
-  background-image: url("/img/logo80.svg");
+  background-image: url("img/logo80.svg");
   background-repeat: no-repeat;
   background-position: center;
 
@@ -299,7 +299,7 @@ header {
   animation-name: text;
   animation-duration: 3s;
   animation-delay: 1s; */
-  background-image: url("/img/logo60.svg");
+  background-image: url("img/logo60.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -349,7 +349,7 @@ header {
   height: 750px;
   margin-bottom: 40px;
 
-  background-image: url('/img/img1.png');
+  background-image: url('img/img1.png');
   -webkit-animation-name: img; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
   animation-name: img;
@@ -550,73 +550,73 @@ header {
 .image-table {
   width: 726px;
   height: 700px;
-  background: url('/img/image2.png');
+  background: url('img/image2.png');
 }
 
 .image-phone1 {
   width: 537px;
   height: 700px;
-  background: url('/img/img13.png');
+  background: url('img/img13.png');
 }
 
 .image-phone2 {
   width: 537px;
   height: 700px;
-  background: url('/img/img14.png');
+  background: url('img/img14.png');
 }
 
 .image-table4 {
   width: 726px;
   height: 700px;
-  background: url('/img/img19.png');
+  background: url('img/img19.png');
 }
 
 .image-phone1-4 {
   width: 537px;
   height: 700px;
-  background: url('/img/img20.png');
+  background: url('img/img20.png');
 }
 
 .image-phone2-4 {
   width: 537px;
   height: 700px;
-  background: url('/img/img21.png');
+  background: url('img/img21.png');
 }
 
 .image-table5 {
   width: 726px;
   height: 700px;
-  background: url('/img/img23.png');
+  background: url('img/img23.png');
 }
 
 .image-phone1-5 {
   width: 537px;
   height: 700px;
-  background: url('/img/img24.png');
+  background: url('img/img24.png');
 }
 
 .image-phone2-5 {
   width: 537px;
   height: 700px;
-  background: url('/img/img25.png');
+  background: url('img/img25.png');
 }
 
 .image-table6 {
   width: 726px;
   height: 460px;
-  background: url('/img/img27.png');
+  background: url('img/img27.png');
 }
 
 .image-phone1-6 {
   width: 537px;
   height: 460px;
-  background: url('/img/img28.png');
+  background: url('img/img28.png');
 }
 
 .image-phone2-6 {
   width: 537px;
   height: 460px;
-  background: url('/img/img29.png');
+  background: url('img/img29.png');
 }
 
 .image-table._active{
@@ -765,7 +765,7 @@ header {
 .section3-img {
   width: 1293px;
   height: 700px;
-  background: url('/img/img201.png');
+  background: url('img/img201.png');
 }
 
 .section3-text{

@@ -817,7 +817,7 @@ header {
 
   text-transform: uppercase;
 
-  background: #808080;
+  /* background: #808080; */
   border: 1px solid #808080;
   box-sizing: border-box;
   border-radius: 50px;
@@ -828,6 +828,31 @@ header {
   padding-left: 18px;
 
   margin-right: 10px;
+}
+
+.btn-active {
+  background: #808080;
+  border: 1px solid #808080;
+}
+
+.section3-title {
+  margin-top: 60px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+
+  text-transform: uppercase;
+}
+
+.section3-text-two {
+  display: inline-block;
+  max-width: 537px;
+}
+
+.section3-text-two div {
+  margin-top: 10px;
 }
 
 .square2, .square3, .square4, .square5, .square6 {

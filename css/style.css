@@ -416,6 +416,9 @@ header {
 
 .wrap {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 100%;
 }
 .stage {
@@ -524,7 +527,7 @@ header {
   transition: all 2s ease 0s;
 
   animation-name: image-three;
-  animation: wipe-down 3s 1;
+  animation: text 3s 1;
 }
 
 @keyframes wipe-down {
@@ -536,7 +539,7 @@ header {
   }
 }
 
-@keyframes wipe-down2 {
+@keyframes wipe-down460 {
   0% {
     height: 0px;
   }
@@ -657,20 +660,20 @@ header {
 }
 
 .image-table6._active{
-  animation: wipe-down2 3s 1;
+  animation: wipe-down460 3s 1;
 }
 
 .image-phone1-6._active{
-  animation: wipe-down2 3s 1;
+  animation: wipe-down460 3s 1;
 }
 
 .image-phone2-6._active{
-  animation: wipe-down2 3s 1;
+  animation: wipe-down460 3s 1;
 }
 
 
 
-.text-three, .text-three4, .text-three5 ,.text-three6 {
+.text-three, .text-three4, .text-three5 {
   display: flex;
   justify-content: space-between;
 
@@ -688,7 +691,27 @@ header {
 
   opacity: 0;
   transition: all 2s ease 0s;
+}
 
+.text-three6 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+
+  opacity: 0;
+  transition: all 2s ease 0s;
+  animation-name: text2;
 }
 
 .text-three._active {
@@ -732,7 +755,7 @@ header {
 
   opacity: 1;
   transition: all 2s ease 0s;
-  animation-name: text;
+  animation-name: text2;
 }
 
 .text-tablet {
@@ -855,7 +878,7 @@ header {
   margin-top: 10px;
 }
 
-.square2, .square3, .square4, .square5, .square6 {
+.square2, .square3, .square4, .square5, .square6, .square7, .square7-2, .square8, .square8-2 {
   width: 120%;
   height: 2px;
   background: #808080;
@@ -863,9 +886,59 @@ header {
   opacity: 0;
 }
 
+.square7-3 {
+  width: 2px;
+  height: 860px;
+  background: #808080;
+
+  margin-left: 930px;
+
+  opacity: 0;
+}
+
+.square8-4, .square8-4-2, .square8-4-3, .square8-4-4 {
+  width: 2px;
+  height: 492px;
+  background: #808080;
+
+  margin-left: 14px;
+  margin-right: 14px;
+
+  opacity: 0;
+}
+
+
 .square-animation2{
   animation: wipe-enter 3s 1;
   opacity: 1;
+}
+
+.square-animation3{
+  animation: wipe-down3 3s 1;
+  opacity: 1;
+}
+
+.square-animation4{
+  animation: wipe-down4 3s 1;
+  opacity: 1;
+}
+
+@keyframes wipe-down4 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 860px;
+  }
+}
+
+@keyframes wipe-down4 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 492px;
+  }
 }
 
 .section-title2, .section-title3, 
@@ -968,4 +1041,257 @@ header {
   100% {
     opacity: 1;
   }
+}
+
+
+/* section6 */
+.section6-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: uppercase;
+}
+
+.text-tablet6 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 726px;
+}
+
+.text-phone1-6 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 537px;
+}
+
+.text-phone2-6 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 537px;
+}
+
+.navigation-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+.btn-arrow {
+  padding: 10px 30px;
+}
+
+.navigation-arrow-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin-left: 20px;
+}
+
+.section7-main-two {
+  display: flex;
+
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+
+.section7-text-one {
+  margin-left: 30px;
+  margin-right: 647px;
+
+  width: 676px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.section7-text-two {
+  margin-left: 30px;
+  margin-top: 15px;
+
+  width: 410px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+
+.section7-text-one._active {
+  margin-left: 30px;
+
+  width: 414px;
+
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 62px;
+
+  text-transform: uppercase;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.section7-img-box{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.section7-img-one {
+  width: 899;
+  height: 800px;
+  margin: 30px;
+  background-image: url('../img/section7-1.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.section7-img-two {
+  display: block;
+  width: 899;
+  height: 800px;
+  background-image: url("../img/section7-2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* section 8 */
+
+.section8 {
+  margin-bottom: 200px;
+}
+
+.section8-main-two {
+  display: flex;
+
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+
+.section8-text-one {
+  margin-left: 30px;
+  margin-right: 342px;
+
+  width: 414px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.section8-text-two {
+  margin-left: 30px;
+  margin-top: 15px;
+
+  width: 538px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+
+.section8-text-one._active {
+  margin-left: 30px;
+
+  width: 414px;
+
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 62px;
+
+  text-transform: uppercase;
+
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.section8-flex-grid {
+  display: flex;
+}
+
+.section8-flex-block {
+  margin-top: 15px;
+}
+
+.section8-flex-block:first-child {
+  margin-left: 30px;
+}
+
+.section8-flex-img-46 {
+  width: 348px;
+  height: 423px;
+  background-image: url('../img/img46.png');
+}
+
+.section8-flex-img-48 {
+  width: 348px;
+  height: 423px;
+  background-image: url('../img/img48.png');
+}
+
+.section8-flex-img-47 {
+  width: 348px;
+  height: 423px;
+  background-image: url('../img/img47.png');
+}
+
+.section8-flex-img-38 {
+  width: 348px;
+  height: 423px;
+  background-image: url('../img/img38.png');
+}
+
+.section8-flex-text {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.section8-flex-text-one {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.section8-mb {
+  margin-top: 10px;
+}
+
+.section8-btn {
+  margin-left: 108px;
+  margin-top: 166px;
 }

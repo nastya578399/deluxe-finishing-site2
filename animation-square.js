@@ -145,3 +145,165 @@
 
   observer.observe(square);
 })();
+
+(function () {
+  var square = document.querySelector('.square7');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation2');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square7-3');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation3');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square7-2');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation2');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation2');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8-4');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation4');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8-4-2');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation4');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8-4-3');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation4');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8-4-4');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation4');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square8-2');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation2');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();

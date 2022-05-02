@@ -307,3 +307,39 @@
 
   observer.observe(square);
 })();
+
+(function () {
+  var square = document.querySelector('.square9');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation2');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();
+
+(function () {
+  var square = document.querySelector('.square9-vertical');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('square-animation5');
+      }
+    });
+  });
+
+  observer.observe(square);
+})();

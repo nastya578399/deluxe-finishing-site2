@@ -561,3 +561,23 @@
   
     observer.observe(square);
   })();
+
+
+  (function () {
+    var square = document.querySelector('.section9-text-one');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('_active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+

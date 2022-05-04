@@ -778,7 +778,3 @@
   
     observer.observe(square);
   })();
-
-
-
-

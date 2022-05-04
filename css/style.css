@@ -1149,6 +1149,15 @@ header {
   }
 }
 
+@keyframes wipe-down9 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 284px;
+  }
+}
+
 .section-title2, .section-title3, 
 .section-title4, .section-title5, .section-title6{
   font-style: normal;
@@ -1500,6 +1509,7 @@ header {
   height: 160px;
   margin-left: 108px;
   margin-top: 166px;
+  margin-bottom: 166px;
   text-align: center;
   border-radius: 50%;
 }
@@ -1566,6 +1576,7 @@ header {
   width: 160px;
   height: 160px;
   margin-left: 30px;
+  margin-bottom: 170px;
   text-align: center;
   border-radius: 50%;
 }

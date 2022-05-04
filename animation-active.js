@@ -581,3 +581,204 @@
     observer.observe(square);
   })();
 
+  (function () {
+    var square = document.querySelector('.section3-img');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('_active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section8-flex-img-46');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section8-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section8-flex-img-48');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section8-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section8-flex-img-47');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section8-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section8-flex-img-38');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section8-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section7-img-one');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section7-img-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.section7-img-two');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section7-img-active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.text-tablet');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active-text');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.text-phone1');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active-text');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.text-phone2');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active-text');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+  (function () {
+    var square = document.querySelector('.square9-main-blok2');
+  
+    var observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          return;
+        }
+  
+        if (entry.isIntersecting) {
+          entry.target.classList.add('_active');
+        }
+      });
+    });
+  
+    observer.observe(square);
+  })();
+
+
+
+
